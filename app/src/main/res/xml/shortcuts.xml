@@ -7,7 +7,7 @@
         android:shortcutShortLabel="@string/shortcut_checkClipboard">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.trianguloy.urlchecker"
-            android:targetClass="com.trianguloy.urlchecker.activities.ShortcutsActivity" />
+            android:targetPackage="com.servalabs.linkcheck"
+            android:targetClass="com.servalabs.linkcheck.activities.ShortcutsActivity" />
     </shortcut>
 </shortcuts>

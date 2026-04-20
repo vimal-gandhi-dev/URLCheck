@@ -4,12 +4,12 @@
 
 - [For translator](#for-translator)
 - [For coder/developer](#for-coderdeveloper)
-- [Installing UrlChecker in Android Studio](#installing-urlchecker-in-android-studio)
+- [Installing Serva LinkCheck in Android Studio](#installing-Serva LinkCheck-in-android-studio)
 - [App Architecture](#app-architecture)
 
 ## For translator:
 
-You are free to propose one or more translations, or to update any existing one. Be sure of your work before providing it to the developers, who cannot verify it. You can translate it using [Weblate](https://hosted.weblate.org/engage/urlcheck/), as a [pull request](https://github.com/TrianguloY/UrlChecker/pulls)/[issue](https://github.com/TrianguloY/UrlChecker/issues/new) titled `{locale} Translation proposal` or by sending the files by email to [TrianguloY](https://github.com/TrianguloY).
+You are free to propose one or more translations, or to update any existing one. Be sure of your work before providing it to the developers, who cannot verify it. You can translate it using [Weblate](https://hosted.weblate.org/engage/urlcheck/), as a [pull request](https://github.com/TrianguloY/Serva LinkCheck/pulls)/[issue](https://github.com/TrianguloY/Serva LinkCheck/issues/new) titled `{locale} Translation proposal` or by sending the files by email to [TrianguloY](https://github.com/TrianguloY).
 
 For manual translation, there are two independent things to translate:
 
@@ -33,13 +33,13 @@ We don't have a coding style, but try to keep it similar to existing code, with 
 
 You can check existing code to see examples, but be aware that some are not perfect. In doubt, just ask.
 
-## Installing UrlChecker in Android Studio
+## Installing Serva LinkCheck in Android Studio
 
 This is a small guide for first-time contributors to be able to build and execute this application in Android Studio.
 Note that there are several ways to prepare your computer for this purpose, and this may not be the best one for your setup, but it should work in most cases:
 
 1. Download Android Studio from [here](https://developer.android.com/studio).
-2. Clone this github repository to your local workspace. You can do it from inside Android Studio Itself, or using git directly: `git clone https://github.com/TrianguloY/UrlChecker.git`.
+2. Clone this github repository to your local workspace. You can do it from inside Android Studio Itself, or using git directly: `git clone https://github.com/TrianguloY/Serva LinkCheck.git`.
 3. Wait until the app is downloaded and parsed. You should wait until all background tasks finish. Usually you will get either a 'ready' notification or a red error. If it's the later try to fix it according to the error message and Internet's help, if you stil can't feel free to create an issue.
 4. If not yet, prepare a device emulator from the Tools->Device Manager. You can just follow the instructions in the setup dialog. This step may be automatic when you try to run the app, so if you see an emulator already there, you probably don't need to do anything else. Using your own device for testing is also possible, but it may be more difficult to setup (although, again, Android Studio should provide you with a step-by-step guide).
 5. Run the app. If step 3 was completed you should be able to just press the 'play' button (green triangle) at the top. If it is disabled it may say why, if it complains about a missing emulator, setup one using step 4.
@@ -47,7 +47,7 @@ Note that there are several ways to prepare your computer for this purpose, and 
 
 ## App Architecture
 
-UrlChecker is an Android Application that checks Url links. It is separated into modules. A very basic overview of the codebase is:
+Serva LinkCheck is an Android Application that checks Url links. It is separated into modules. A very basic overview of the codebase is:
 
 - Activities: Full activities, like the startup screen, the settings, backup, etc.
 - Dialogs: Popup dialogs, same as activities but show the previous app behind, like the main dialog.
