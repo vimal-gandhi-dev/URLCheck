@@ -105,7 +105,7 @@
                 android:paddingLeft="@dimen/padding"
                 android:paddingRight="@dimen/padding"
                 android:text="@string/a_settings" />
-
+<!-- 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
@@ -117,7 +117,7 @@
                 android:onClick="openAbout"
                 android:paddingLeft="@dimen/padding"
                 android:paddingRight="@dimen/padding"
-                android:text="@string/a_about" />
+                android:text="@string/a_about" /> -->
         </LinearLayout>
 
     </LinearLayout>

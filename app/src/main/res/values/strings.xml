@@ -6,7 +6,7 @@
         For multiple translators, separate them by semicolon.
         Example: <string name="translators">John Doe; Jane Doe</string>
     -->
-    <string name="translators">TrianguloY</string>
+    <string name="translators">Serva Labs</string>
     <!--
         Locale name:
         Write the locale name in the locale language, for users that doesn't know english. For example 'Español' instead of 'Spanish'.

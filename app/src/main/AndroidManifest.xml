@@ -35,7 +35,7 @@
             android:exported="true"
             android:launchMode="singleInstance"
             android:noHistory="true"
-            android:taskAffinity="com.trianguloy.urlchecker.dialog"
+            android:taskAffinity="com.servalabs.linkcheck.dialog"
             android:theme="@android:style/Theme.DeviceDefault.Dialog">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -172,7 +172,7 @@
             android:icon="@mipmap/clipboard_launcher"
             android:label="@string/shortcut_checkClipboard"
             android:launchMode="singleTask"
-            android:taskAffinity="com.trianguloy.urlchecker.shortcuts"
+            android:taskAffinity="com.servalabs.linkcheck.shortcuts"
             android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />

@@ -5,9 +5,9 @@ plugins {
 }
 
 android {
-    namespace 'com.trianguloy.urlchecker'
+    namespace 'com.servalabs.linkcheck'
     defaultConfig {
-        applicationId "com.trianguloy.urlchecker"
+        applicationId "com.servalabs.linkcheck"
         compileSdkVersion 36
         minSdkVersion 19
         targetSdkVersion 36
@@ -36,7 +36,7 @@ android {
     // rename output apks
     applicationVariants.configureEach {
         outputs.configureEach {
-            outputFileName = "URLCheck-$versionName${name == "release" ? "" : "-$name"}.apk"
+            outputFileName = "LinkCheck-$versionName${name == "release" ? "" : "-$name"}.apk"
         }
     }
 
