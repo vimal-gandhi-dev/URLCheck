@@ -130,3 +130,10 @@ You can use parts of this project in your own ones, or upload modified versions 
 
 - You must add my nick [**TrianguloY**](https://github.com/TrianguloY/) in an `about` or `acknowledgments` section visible to the user.
 - You must add a link to this [**GitHub main page**](https://github.com/TrianguloY/URLCheck) or subpage (if you used a part of the code or an asset) in an `about` or `acknowledgments` section visible to the user.
+
+
+## Live Portfolio
+
+Visit the live portfolio: [https://vimal-gandhi.vercel.app](https://vimal-gandhi.vercel.app)
+
+This site showcases Vimal Gandhi's full-stack development work across web apps, mobile apps, Shopify, WordPress, cloud infrastructure, and Web3 projects.
